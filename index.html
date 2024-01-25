@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Realtime Socket io chat app</title>
+    
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+    <!--
+The script tag you provided is referencing the Socket.IO client library. 
+This script is typically included in the HTML file of a client-side application
+to enable communication between the client and a Socket.IO server. 
+-->
+
+    <!-- 
+The statement "By default, the Socket.IO server exposes a client bundle at /socket.io/socket.io.js" refers to the fact that
+when you run a Socket.IO server, it automatically serves a JavaScript file that contains the Socket.IO client library. 
+This client library is necessary for clients (such as web browsers) to connect to and communicate with the Socket.IO server.
+ -->
+
+    <script defer src="JS/client.js"></script>   
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="logo.png" />
+    </nav>
+
+    <h2>Welcome to @dhakad22klx Simple Chat App</h2>
+    <div class="container"></div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp" />
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
