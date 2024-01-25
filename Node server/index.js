@@ -17,6 +17,8 @@
 //       origin: '*',
 //     }
 
+
+
 //   //The cors option is specifying the Cross-Origin Resource Sharing configuration for the Socket.IO server.
 //   //In this case, it allows any origin ('*') to access the Socket.IO server. 
 //   //This is useful during development when you might have different origins for your client and server.
